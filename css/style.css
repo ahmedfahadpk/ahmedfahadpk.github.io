@@ -327,6 +327,7 @@ aside {
   background-size: cover;
   height: 400px;
   position: relative;
+  z-index: -1;
 }
 
 @media (min-width: 576px) {

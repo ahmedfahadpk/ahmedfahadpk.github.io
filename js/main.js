@@ -2,8 +2,19 @@
 
 	'use strict';
 
-	// bootstrap dropdown hover
-
+  // bootstrap dropdown hover
+  
+  $(document).ready(function(){
+    setTimeout(function(){
+      $('.spinner').addClass('hide');
+      // $('.site-wrap').removeClass('hide');
+      $('.site-wrap').fadeIn();
+    }, 1000); 
+     
+     
+  });
+   
+  // $('#out').fadeIn();
   // loader
   var loader = function() {
     setTimeout(function() { 
